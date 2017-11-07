@@ -1,0 +1,21 @@
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+/data/*
+.ipynb_checkpoints/Cats and Dogs in Cortex (Redux)-checkpoint.ipynb
+.ipynb_checkpoints/Cats-Dogs-Cortex-Redux-checkpoint.ipynb
+kaggle-results-final.csv
+kaggle-results.csv
+kaggle-results.csv.carin
+kaggle-results.csv.carin2
+kaggle-results.csv.carin3
+models/resnet50.nippy
+trained-network.nippy
