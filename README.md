@@ -1,5 +1,9 @@
 # cats-dogs-redux
 
+
+This example borrows heavily from the [RESNET-RETRAIN](https://github.com/thinktopic/cortex/tree/master/examples/resnet-retrain) example in the cortex project.
+
+
 [dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data)
 
 
