@@ -275,7 +275,7 @@
 (defn train
   [& [batch-size]]
   (let [batch-size (or batch-size 32)
-        epoch-size 21250 ;; number of cats and dogs examples in the training you can lower this to 4096 if you like 
+        epoch-size 4096
         network (load-network "models/resnet50.nippy" :fc1000 layers-to-add)]
     (println "training using batch size of" batch-size)
     (train/train-n network
