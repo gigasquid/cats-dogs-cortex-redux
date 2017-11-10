@@ -305,7 +305,7 @@
   "incrementally improve upon the trained model"
   [& [batch-size]]
   (let [batch-size (or batch-size 32)
-        epoch-size 21250
+        epoch-size 4096
         network (util/read-nippy-file "trained-network.nippy")]
     (println "training using batch size of" batch-size)
     (train/train-n network
